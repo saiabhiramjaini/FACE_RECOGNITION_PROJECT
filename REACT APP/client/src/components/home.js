@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import "./home.css";
+import "./Home.css";
 
 const Homepage = (props) => {
   const [selectedFile, setSelectedFile] = useState();

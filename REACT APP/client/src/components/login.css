@@ -1,10 +1,10 @@
 *{
     box-sizing: border-box;
 }
-body{
+.login-body{
     height:100%;
 }
-a, button{
+.create-account,.forgot-password,.button{
     cursor: pointer;
 }
 @keyframes pan {
@@ -12,12 +12,12 @@ a, button{
         background-position: 15% 50%;
     }
 }
-body{
+.login-body{
     display: grid;
     place-items: center;
     margin-top: 50px;
     padding: 0 24px;
-    background-image: url("bg.svg");
+    background-image: url("./bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
     animation:pan 6s infinite alternate linear; 

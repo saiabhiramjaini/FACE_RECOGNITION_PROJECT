@@ -18,10 +18,10 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 0 24px;
-    background-image: url("bg.svg");
+    background-image: url("./bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    animation:pan 4s infinite alternate linear; 
+    animation:pan 6s infinite alternate linear; 
 }
 @media(width>=500px){
     body{
